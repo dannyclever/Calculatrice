@@ -62,6 +62,11 @@ body {
     color: white;
 }
 
+.operador:hover {
+    background-color: #FAEBD7;
+    color: #FBAB18;
+}
+
 .operador:focus {
     background-color: white;
     color: #FBAB18;
