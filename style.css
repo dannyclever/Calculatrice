@@ -10,7 +10,7 @@ body {
 }
 
 .calculator {
-    width: 360px;
+    width: 365px;
     margin: 0 auto;
     background-color: black;
     padding: 20px;
@@ -31,4 +31,47 @@ body {
     font-size: 4rem;
     font-weight: 100;
     overflow: hidden;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.clean {
+    background-color: #9F9F9F;
+    color: black;
+}
+
+.clean:hover {
+    background-color: green;
+}
+
+.number {
+    background-color: #313131;
+    color: white;
+}
+
+.number:hover {
+    background-color: #9F9F9F;
+}
+
+.operador {
+    background-color: #FBAB18;
+    color: white;
+}
+
+.operador:focus {
+    background-color: white;
+    color: #FBAB18;
+}
+
+.calculator button {
+    padding: 20px;
+    border-radius: 60px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
 }
