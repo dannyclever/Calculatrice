@@ -31,6 +31,7 @@ body {
     font-size: 4rem;
     font-weight: 100;
     overflow: hidden;
+    user-select: none;
 }
 
 .calculator-buttons {
@@ -79,4 +80,5 @@ body {
     outline: none;
     cursor: pointer;
     border: 2px solid black;
+    user-select: none;
 }
